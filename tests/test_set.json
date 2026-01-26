@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which organizations fall under the mandatory reporting scope of the UK Streamlined Energy and Carbon Reporting (SECR) framework?",
+    "expected_answer": "The SECR framework is mandatory for **all quoted companies**, as well as **large unquoted companies** (including charitable companies) and **large Limited Liability Partnerships (LLPs)**. A company or LLP is defined as 'large' if it meets at least two of the following criteria in a year: a **turnover of £36 million or more**, a **balance sheet total of £18 million or more**, or **250 or more employees**. Public bodies are generally not required to report under SECR at an organizational level.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "What is the 'base year' in carbon accounting, and why is it important for SECR reporting?",
+    "expected_answer": "A base year is a **performance datum or reference point in the past** against which an organization's current emissions can be compared. It is important because it establishes a benchmark that allows for **meaningful and consistent comparisons of emissions performance over time**, which is necessary for tracking progress toward targets.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "Are UK unquoted companies required to report on their global energy use under SECR, or just their UK-based activities?",
+    "expected_answer": "Large unquoted companies and LLPs are required to report as a minimum their **UK energy use and associated greenhouse gas emissions**. This includes energy use from the **combustion of gas, consumption of fuel for transport**, and the **purchase of electricity for own use** within the UK and its offshore area.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "What are the specific requirements for reporting 'intensity ratios' in a SECR-compliant report?",
+    "expected_answer": "The report must include **at least one intensity ratio** that expresses the organization’s annual emissions in relation to a **quantifiable business metric or financial indicator**. Examples of appropriate metrics include **tonnes of CO2e per total square metres** for the property sector or **tonnes of CO2e per million tonnes of production** for manufacturing.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "How should an organization report 'biogenic CO2 emissions' according to the latest UK government guidance?",
+    "expected_answer": "Direct CO2 emissions from the **combustion of biomass, biofuels, or biologically-sequestered carbon** should be **reported separately from the three scopes** (Scope 1, 2, and 3). However, other greenhouse gases emitted during biomass combustion, such as **nitrous oxide (N2O) and methane (CH4)**, must still be included within the relevant scopes.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "What is the primary difference between 'market-based' and 'location-based' methods for Scope 2 reporting?",
+    "expected_answer": "The **location-based method** uses **grid average emission factors** to report emissions from electricity consumed from the grid. The **market-based method** allows an organization to reflect its specific **contractual arrangements**, such as the purchase of **Renewable Energy Guarantees of Origin (REGOs)** or Power Purchase Agreements, which may result in a reduced emission figure.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "Define Scope 3 Category 1 emissions (Purchased Goods and Services) according to the GHG Protocol.",
+    "expected_answer": "Scope 3 Category 1 emissions include the greenhouse gases resulting from the **production, transportation, and use of goods and services purchased or acquired** by the reporting organization. These are emissions that occur in the organization's **upstream supply chain** and are not owned or controlled by the reporting entity.",
+    "expected_source": "25-26_Sustainability_Reporting_Guidance.pdf"
+  },
+  {
+    "question": "Under what circumstances does the GHG Protocol require an organization to recalculate its base-year emissions?",
+    "expected_answer": "Recalculation is required when **structural changes** occur that significantly impact the base year, such as **mergers, acquisitions, divestments, or outsourcing/insourcing** of emitting activities. It is also required for **changes in calculation methodology**, improvements in data accuracy (such as more precise emission factors), or the **discovery of significant errors**.",
+    "expected_source": "ghg-protocol-revised.pdf"
+  },
+  {
+    "question": "Does the GHG Protocol Corporate Standard mandate the reporting of all 15 categories of Scope 3 emissions?",
+    "expected_answer": "No, the reporting of Scope 3 emissions is **optional and voluntary** under the GHG Protocol Corporate Standard. While companies are encouraged to report relevant categories to better understand their GHG risk exposure, it is **not a mandatory requirement**.",
+    "expected_source": "ghg-protocol-revised.pdf"
+  },
+  {
+    "question": "What is a 'consolidated GHG inventory,' and what are the three different consolidation approaches (Equity Share, Financial Control, Operational Control)?",
+    "expected_answer": "A consolidated GHG inventory is the **combination of emissions data from separate operations** that form part of one company or group. The **Equity Share** approach accounts for emissions according to the company's **share of economic interest** in an operation. Under **Financial Control**, a company reports 100% of emissions from operations where it can **direct financial and operating policies** to gain economic benefits. Under **Operational Control**, a company reports 100% of emissions from operations where it has the **full authority to introduce and implement its operating policies**.",
+    "expected_source": "ghg-protocol-revised.pdf"
+  },
+  {
+    "question": "What were the primary changes introduced in the 2023 reforms to the EU Emissions Trading System (ETS) Directive?",
+    "expected_answer": "I do not have enough regulatory data to answer this.",
+    "expected_source": "N/A"
+  },
+  {
+    "question": "According to ISO 14064-1:2018, what are the five principles of greenhouse gas accounting (Relevance, Completeness, Consistency, Accuracy, Transparency)?",
+    "expected_answer": "The principles are: **Relevance** (ensuring the inventory serves the needs of users), **Completeness** (accounting for all sources within the boundary), **Consistency** (using uniform methodologies for meaningful comparisons), **Accuracy** (reducing uncertainties so data is neither over nor under actual values), and **Transparency** (disclosing assumptions and methodologies clearly). These principles are used by both the GHG Protocol and ISO standards.",
+    "expected_source": "ghg-protocol-revised.pdf"
+  },
+  {
+    "question": "How does ISO 14064-1:2018 define 'direct' versus 'indirect' emissions compared to the GHG Protocol's 'Scopes'?",
+    "expected_answer": "ISO 14064-1 definitions of **Direct Emissions** are analogous to the GHG Protocol's **Scope 1**, referring to emissions from sources owned or controlled by the company. **Indirect Emissions** encompass both **Scope 2** (purchased energy) and **Scope 3** (other value chain activities) as defined by the GHG Protocol.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "What are the requirements for an 'internal verification' of a GHG inventory according to ISO 14064-1?",
+    "expected_answer": "I do not have enough regulatory data to answer this.",
+    "expected_source": "N/A"
+  },
+  {
+    "question": "Which specific industrial sectors are currently covered by the EU ETS 'Phase 4' implementation?",
+    "expected_answer": "I do not have enough regulatory data to answer this.",
+    "expected_source": "N/A"
+  },
+  {
+    "question": "What is the 2024 UK government (DEFRA) conversion factor for 'UK Electricity (Grid Average)'?",
+    "expected_answer": "I do not have enough regulatory data to answer this.",
+    "expected_source": "N/A"
+  },
+  {
+    "question": "How should 'well-to-tank' (WTT) emissions be accounted for in a corporate footprint, and which scope do they typically fall under?",
+    "expected_answer": "WTT emissions relate to the **extraction, production, and transportation of fuels** consumed by the reporting company and should be accounted for under **Scope 3**. These are distinct from the emissions generated during the actual combustion of the fuel, which fall under Scope 1.",
+    "expected_source": "environmental-reporting-guidance-secr-march-2019.pdf"
+  },
+  {
+    "question": "What is a 'Global Warming Potential' (GWP) value, and which IPCC Assessment Report (AR4, AR5, or AR6) does the EPA currently recommend for GWPs?",
+    "expected_answer": "A GWP value describes the **radiative forcing impact** (degree of harm to the atmosphere) of one unit of a given GHG **relative to one unit of CO2** over a 100-year time horizon. The EPA and the GHGRP have transitioned to recommending and using **AR5 GWP values** for annual reports beginning with Reporting Year 2024.",
+    "expected_source": "2023-10047.pdf"
+  },
+  {
+    "question": "How do you calculate Scope 1 emissions for a fleet of diesel-powered heavy goods vehicles (HGVs)?",
+    "expected_answer": "You calculate these by taking the **activity data**, which is the total **quantity of diesel fuel purchased or used** (e.g., in gallons or liters), and multiplying it by the **relevant emission factor** for diesel. The resulting figure is then typically **converted into metric tons of CO2 equivalent**.",
+    "expected_source": "Hot%20Climate%2C%20Cool%20Commerce%20A%20Service%20Sector%20Guide%20to%20Greenhouse%20Gas%20Management.pdf"
+  },
+  {
+    "question": "What are 'fugitive emissions,' and which common industrial gases fall into this reporting category?",
+    "expected_answer": "Fugitive emissions are **intentional or unintentional releases** of GHGs, often resulting from **equipment leaks** at joints, seals, and gaskets, or from wastewater treatment and coal mines. Common gases in this category include **methane (CH4)** from pipelines and **hydrofluorocarbons (HFCs)** from refrigeration and air-conditioning equipment.",
+    "expected_source": "ghg-protocol-revised.pdf"
+  }
+]
