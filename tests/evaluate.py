@@ -14,7 +14,7 @@ if PROJECT_ROOT not in sys.path:
 
 from sentence_transformers import util
 
-from src.models.generator import CarbonChatbot  # Your chatbot class
+from src.models.generator import AzureCarbonChatbot, CarbonChatbot
 
 
 def calculate_semantic_similarity(prediction, ground_truth, model):
@@ -69,6 +69,7 @@ def calculate_em(prediction, ground_truth):
 def run_evaluation():
     # Initialize your bot artifact
     bot = CarbonChatbot()
+    # bot = AzureCarbonChatbot()
 
     with open("tests/test_set.json", "r") as f:
         test_set = json.load(f)
