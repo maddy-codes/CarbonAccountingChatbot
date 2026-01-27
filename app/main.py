@@ -23,7 +23,7 @@ if PROJECT_ROOT not in sys.path:
 from src.models.generator import AzureCarbonChatbot
 
 # Page Configuration
-st.set_page_config(page_title="Carbon Accounting AI")
+st.set_page_config(page_title="Carbon Accounting AI", page_icon="🌱")
 
 
 @st.cache_resource
@@ -35,7 +35,7 @@ def load_bot():
 bot = load_bot()
 
 # UI Layout
-st.title("Intelligent Carbon Accounting Chatbot")
+st.title("🌱 Intelligent Carbon Accounting Chatbot")
 st.markdown("---")
 
 # Initialize chat history

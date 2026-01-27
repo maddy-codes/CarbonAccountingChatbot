@@ -33,27 +33,23 @@ CarbonAccountingChatbot/
 
 ## Installation
 
+This project uses `uv` for fast dependency management.
+
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/yourusername/CarbonAccountingChatbot.git
     cd CarbonAccountingChatbot
     ```
 
-2.  **Create a virtual environment**:
+2.  **Install uv** (if not already installed):
     ```bash
-    python -m venv .venv
-    source .venv/bin/activate  # On macOS/Linux
-    # .venv\Scripts\activate   # On Windows
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
 3.  **Install dependencies**:
-    This project uses `uv` for dependency management, but can also be installed via `pip` if a `requirements.txt` is generated.
+    Initialize the environment and install packages using `uv`:
     ```bash
-    pip install .  # If installing from pyproject.toml
-    ```
-    Alternatively, install required packages manually:
-    ```bash
-    pip install streamlit openai sentence-transformers faiss-cpu pdfplumber beautifulsoup4 langchain-text-splitters python-dotenv
+    uv sync
     ```
 
 4.  **Set up environment variables**:
@@ -67,15 +63,15 @@ CarbonAccountingChatbot/
 1.  **Data Models Initialization** (First run only):
     Download regulations, process text, and build the vector index.
     ```bash
-    python src/ingestion/scraper.py
-    python src/ingestion/processor.py
-    python src/models/retriever.py
+    uv run src/ingestion/scraper.py
+    uv run src/ingestion/processor.py
+    uv run src/models/retriever.py
     ```
 
 2.  **Run the Application**:
     Start the Streamlit interface.
     ```bash
-    streamlit run app/main.py
+    uv run streamlit run app/main.py
     ```
 
 ## Technology Stack
